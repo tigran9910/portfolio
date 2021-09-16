@@ -1,0 +1,114 @@
+.layout {
+}
+nav {
+  display: grid;
+  grid-template-areas: "links";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 3rem;
+}
+nav .links {
+  grid-area: links;
+  display: grid;
+  grid-template-areas: "home resume portfolio";
+  margin: 0 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0.7rem 2rem;
+  border-bottom: 2px solid transparent;
+}
+.link:hover {
+  border-color: rgb(189, 189, 189);
+}
+.link.active {
+  border-color: white;
+}
+.link.active:hover {
+}
+.links > .home {
+  grid-area: home;
+}
+.links > .resume {
+  grid-area: resume;
+}
+.links > .portfolio {
+  grid-area: portfolio;
+}
+.link-icon {
+  fill: white;
+  width: 2.3rem;
+  height: auto;
+}
+.link-icon.mobile {
+  display: none;
+}
+.link-title {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-left: 1.1rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer > p {
+  color: white;
+  background-color: black;
+  padding: 0.7rem;
+}
+
+footer > p:first-child {
+  margin-top: 6rem;
+  padding-bottom: 1rem;
+}
+footer > p:last-child {
+  padding-bottom: 10%;
+}
+footer a {
+  color: rgb(170, 112, 57);
+}
+@media only screen and (max-width: 1000px) {
+  nav {
+    margin-bottom: 2rem;
+  }
+  nav .links {
+    margin: 0 2rem;
+  }
+}
+@media only screen and (max-width: 880px) {
+  nav {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  nav {
+    margin-bottom: 6rem;
+  }
+  nav .links {
+    /* grid-template-areas:
+      "home"
+      "resume"
+      "portfolio"; */
+    /* margin: 0 1rem; */
+  }
+  .link-title {
+    display: none;
+  }
+  .link-icon.pc {
+    display: none;
+  }
+  .link-icon.mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 450px) {
+  nav .links {
+    margin: 0 0.5rem;
+  }
+}
