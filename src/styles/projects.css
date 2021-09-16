@@ -76,11 +76,11 @@ p.short-info {
   background: transparent;
   border: 1px solid white;
   border-radius: 50rem;
-  text-shadow: 0 0 3px rgb(250, 241, 118), 0 0 5px rgb(170, 112, 57),
-    0 0 10px rgb(170, 112, 57), 0 0 21px rgb(170, 112, 57),
-    0 0 41px rgb(170, 112, 57);
-  box-shadow: 0 0 2px rgb(250, 241, 118), 0 0 4px rgb(170, 112, 57),
-    0 0 10px rgb(170, 112, 57), 0 0 20px rgb(170, 112, 57);
+  text-shadow: 0 0 3px rgb(228, 228, 228), 0 0 5px rgb(165, 165, 165),
+    0 0 10px rgb(165, 165, 165), 0 0 21px rgb(165, 165, 165),
+    0 0 41px rgb(165, 165, 165);
+  box-shadow: 0 0 2px rgb(228, 228, 228), 0 0 4px rgb(165, 165, 165),
+    0 0 10px rgb(165, 165, 165), 0 0 20px rgb(165, 165, 165);
 }
 .pj-links {
   display: flex;
