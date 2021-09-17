@@ -10,5 +10,5 @@ code: "https://github.com/tigran9910/rainbow-equalizer"
 web: "https://tigran9910.github.io/rainbow-equalizer/"
 ---
 
-A music player with a glowing CSS animation and rainbow-colored audio visualizer
+Music player with a glowing CSS animation and a rainbow-colored audio visualizer.
 

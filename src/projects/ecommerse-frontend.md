@@ -1,6 +1,6 @@
 ---
 title: Frontend for an E-commerse Web App
-tags: ["HTML", "CSS", "Material UI", "React", "Typescript", "Styled Components"]
+tags: ["HTML", "CSS", "Styled Components", "Material UI", "React", "Typescript"]
 slug: ecommerse-frontend
 date: 2021-09-15T00:00:00+00:00
 thumb: ../images/thumbs/ecommerse-frontend.png
@@ -10,4 +10,4 @@ code: "https://github.com/tigran9910/react-typescript-shopping-cart"
 web: "https://tigran-projects-shopping-cart.netlify.app/"
 ---
 
-A simple React & TypeScript Frontend App. You can add items to the shopping cart, choose the right amount and see the prize of all your products in the cart.
+A simple React & TypeScript Frontend App. You can add items to the shopping cart, choose the amount and see the price of all your products in the cart.

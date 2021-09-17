@@ -15,20 +15,20 @@ export default function Resume() {
               Business Informatics student with experience in accounting and
               audit. Finished school in Moscow at the age of 16 with 2 golden
               medals and started living alone and studying in Germany. Learn Web
-              Development and Machine Learning. Have created several websites,
-              one web app with MERN-Stack, several ML projects with Python and a
-              new "programming" language on Typescript.
+              Development and Machine Learning. Have created several websites
+              and web apps, several ML projects with Python and a new very
+              simple programming language on Typescript.
             </p>
           </div>
           <div className="section software">
             <h3 className="section-name">Software</h3>
             <ul>
               <li>
-                <b>Languages:</b> JavaScript, HTML, CSS, Python, C#, R
+                <b>Languages:</b> Python, JavaScript, C#, Java, CSS, HTML, R
               </li>
               <li>
-                <b>Technologies:</b> Linux, NodeJS, TypeScript, React, Gatsby,
-                Docker
+                <b>Technologies:</b> Linux, NodeJS, ExpressJS, TypeScript,
+                React, Gatsby, Docker
               </li>
               <li>
                 <b>Source Control:</b> Git
