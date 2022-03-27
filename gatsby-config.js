@@ -51,9 +51,9 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "Boredblue Portfolio",
+    title: "Tigran Portfolio",
     description: "Web Dev Portfolio",
-    copyright: "This website is copyright 2021 boredblue",
-    contact: "tigranmelkumyan0@gmail.com",
+    copyright: "This website is copyright 2021 Tigran",
+    contact: "tigran3601@gmail.com",
   },
 }
