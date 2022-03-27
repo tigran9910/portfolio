@@ -13,7 +13,7 @@ export default function Resume() {
             <h3 className="section-name">Summary</h3>
             <p>
               Business Informatics student working as a part-time Web Developer
-              at BASF. Learn about Machine Learning in free time.
+              at BASF, reading about Machine Learning and developing a mobile app in free time.
             </p>
           </div>
           <div className="section experience">
