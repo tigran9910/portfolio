@@ -17,7 +17,7 @@ h2 {
   display: grid;
   grid-template-areas:
     "summary"
-    "software"
+    "experience"
     "projects";
   grid-row-gap: 3rem;
 }
@@ -25,8 +25,8 @@ h2 {
   grid-area: right;
   display: grid;
   grid-template-areas:
-    "experience"
     "education"
+    "software"
     "languages";
   grid-row-gap: 3rem;
 }
@@ -100,7 +100,8 @@ p.edu-info {
   display: grid;
   grid-template-areas:
     "exp-job exp-date"
-    "exp-firm exp-firm";
+    "exp-firm exp-firm"
+    "exp-description exp-description";
   grid-template-columns: 67% 33%;
 }
 .exp-job {
@@ -121,6 +122,12 @@ p.exp-date {
   grid-area: exp-firm;
 }
 p.exp-firm {
+  font-size: 1rem;
+}
+p.exp-description {
+  grid-area: exp-description;
+}
+p.exp-description {
   font-size: 1rem;
 }
 .languages li {
