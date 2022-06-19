@@ -19,7 +19,7 @@ export default function Layout({ children }) {
           <a href="mailto: tigran3601@gmail.com">tigran3601@gmail.com</a> for a
           quote!
         </p>
-        <p>&copy; Copyright 2021 Tigran</p>
+        <p>&copy; Copyright 2022 Tigran</p>
       </footer>
     </div>
   )
