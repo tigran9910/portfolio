@@ -8,6 +8,8 @@ featuredImg: ../images/featured/url-shortener.png
 short-info: A URL Shortener with authorization and connection to MongoDB Atlas
 code: "https://github.com/magnusglide/URL-Shortener-MERN-stack"
 web: ""
+videoSrcURL:
+videoTitle: ""
 ---
 
 In this web app you can sign in, create custom short links, store them in your account and see the number of clicks on these short links. It is a MERN Stack project with Mongo Atlas, password hashing, React Hooks and Components, created thanks to a Youtube Tutorial.

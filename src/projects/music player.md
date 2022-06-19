@@ -8,7 +8,8 @@ featuredImg: ../images/featured/music-player.png
 short-info: Vanilla JavaScript Music Player with Audio Visualization
 code: "https://github.com/tigran9910/rainbow-equalizer"
 web: "https://tigran9910.github.io/rainbow-equalizer/"
+videoSrcURL:
+videoTitle: ""
 ---
 
 Music player with a glowing CSS animation and a rainbow-colored audio visualizer.
-

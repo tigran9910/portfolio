@@ -1,3 +1,7 @@
+div[aria-hidden="true"] {
+  /* display: none; */
+  padding-bottom: 900px !important;
+}
 .details {
   width: 1300px;
   margin: 0 3rem;
@@ -88,6 +92,7 @@
   text-decoration: line-through;
 }
 .featured {
+  max-height: 900px;
 }
 
 @media only screen and (max-width: 880px) {

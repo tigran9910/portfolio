@@ -8,6 +8,8 @@ featuredImg: ../images/featured/tsnewlang.png
 short-info: A new programming language based on Typescript with a Lexer, a Parser and an Abstract Syntax Tree
 code: https://github.com/magnusglide/typescript-programming-language
 web: ""
+videoSrcURL:
+videoTitle: ""
 ---
 
 I decided to learn how programming languages work so I have found a tutorial - how to create a programming language.

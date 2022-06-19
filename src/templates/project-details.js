@@ -4,10 +4,11 @@ import Img from "gatsby-image"
 import "../styles/project-details.css"
 import "../styles/global.css"
 import { graphql, Link } from "gatsby"
+import Video from "../components/Video"
 
 export default function ProjectDetails({ data }) {
   const { html } = data.markdownRemark
-  const { title, tags, date, featuredImg, web, code } =
+  const { title, tags, date, featuredImg, web, code, videoSrcURL, videoTitle } =
     data.markdownRemark.frontmatter
 
   return (
@@ -21,7 +22,14 @@ export default function ProjectDetails({ data }) {
 
         {featuredImg ? (
           <div className="featured">
-            <Img fluid={featuredImg.childImageSharp.fluid} />
+            <Img
+              fluid={featuredImg.childImageSharp.fluid}
+              className="project-featured-img"
+              imgStyle={{
+                objectFit: "contain",
+                maxHeight: "850px",
+              }}
+            />
           </div>
         ) : (
           <div></div>
@@ -34,6 +42,10 @@ export default function ProjectDetails({ data }) {
             </div>
           ))}
         </div>
+
+        {videoTitle && (
+          <Video videoSrcURL={videoSrcURL} videoTitle={videoTitle} />
+        )}
 
         <div className="html" dangerouslySetInnerHTML={{ __html: html }} />
 
@@ -79,6 +91,8 @@ export const query = graphql`
         web
         code
         date(formatString: "DD.MM.YYYY")
+        videoSrcURL
+        videoTitle
         featuredImg {
           childImageSharp {
             fluid {

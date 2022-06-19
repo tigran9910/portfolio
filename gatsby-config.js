@@ -53,7 +53,7 @@ module.exports = {
   siteMetadata: {
     title: "Tigran Portfolio",
     description: "Web Dev Portfolio",
-    copyright: "This website is copyright 2021 Tigran",
+    copyright: "This website is copyright 2022 Tigran",
     contact: "tigran3601@gmail.com",
   },
 }

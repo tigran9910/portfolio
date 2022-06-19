@@ -8,6 +8,8 @@ featuredImg: ../images/featured/ecommerse-frontend.png
 short-info: Frontend for a Web App with React Typescript
 code: "https://github.com/tigran9910/react-typescript-shopping-cart"
 web: "https://tigran-projects-shopping-cart.netlify.app/"
+videoSrcURL:
+videoTitle: ""
 ---
 
 A simple React & TypeScript Frontend App. You can add items to the shopping cart, choose the amount and see the price of all your products in the cart.
