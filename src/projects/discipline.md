@@ -24,7 +24,7 @@ This is a Habit tracker. This is a very complicated project and I have been work
 <li>each habit can have multiple goals
 <li>habits can be positive or negative (more types coming soon)
 <li>changing dates is fast
-<li>each habit can have differen icons with different colors
+<li>each habit can have different icons with different colors
 <li>several open source packs with over 10000 icons in total, with a search and a special design to allow users to add icons to their favourite icons list
 <li>hsv color picker to allow users to choose any icon color they want
 <li>app has 3 main themes (system, light and dark) with a fast transition (more themes coming)
