@@ -6,6 +6,13 @@ div[aria-hidden="true"] {
   width: 1300px;
   margin: 0 3rem;
 }
+.videoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 .go-back {
   border: 1px solid white;
   color: white;

@@ -8,8 +8,18 @@ import Video from "../components/Video"
 
 export default function ProjectDetails({ data }) {
   const { html } = data.markdownRemark
-  const { title, tags, date, featuredImg, web, code, videoSrcURL, videoTitle } =
-    data.markdownRemark.frontmatter
+  const {
+    title,
+    tags,
+    date,
+    featuredImg,
+    web,
+    code,
+    videoSrcURL,
+    videoTitle,
+    video2SrcURL,
+    video2Title,
+  } = data.markdownRemark.frontmatter
 
   return (
     <Layout>
@@ -43,9 +53,14 @@ export default function ProjectDetails({ data }) {
           ))}
         </div>
 
-        {videoTitle && (
-          <Video videoSrcURL={videoSrcURL} videoTitle={videoTitle} />
-        )}
+        <div className="videoContainer">
+          {videoTitle && (
+            <Video videoSrcURL={videoSrcURL} videoTitle={videoTitle} />
+          )}
+          {video2Title && (
+            <Video videoSrcURL={video2SrcURL} videoTitle={video2Title} />
+          )}
+        </div>
 
         <div className="html" dangerouslySetInnerHTML={{ __html: html }} />
 
@@ -93,6 +108,8 @@ export const query = graphql`
         date(formatString: "DD.MM.YYYY")
         videoSrcURL
         videoTitle
+        video2SrcURL
+        video2Title
         featuredImg {
           childImageSharp {
             fluid {

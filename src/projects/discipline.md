@@ -10,6 +10,8 @@ code: ""
 web: ""
 videoSrcURL: https://www.youtube.com/embed/GGeLiyAeZPY
 videoTitle: "Inrto to Discipline"
+video2SrcURL: https://www.youtube.com/embed/O-Qbds4Ll9k
+video2Title: "Inrto to Discipline 2"
 ---
 
 This is a Habit tracker. This is a very complicated project and I have been working on it for 6 months. 70% of a beta version done.
